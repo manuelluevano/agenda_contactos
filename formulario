@@ -1,0 +1,22 @@
+<div class="campos">
+        
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombre Contacto">
+            </div>
+        
+            <div class="campo">
+                <label for="empresa">Empresa:</label>
+                <input type="text" id="empresa" placeholder="Nombre Empresa">
+            </div>
+
+            <div class="campo">
+                <label for="tel">Télefono:</label>
+                <input type="tel" id="tel" placeholder="Número de Teléfono">
+            </div>
+
+        </div>
+
+        <div class="campo enviar">
+                <input type="submit" value="Añadir">
+        </div>
