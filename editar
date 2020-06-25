@@ -1,0 +1,24 @@
+<?php include 'includes/layout/header.php'; ?>
+
+
+<div class="contenedor-barra">
+    <div class="contenedor barra">
+        
+        <a class="btn volver" href="index.php">Volver</a>
+        <h1>Editar Contacto</h1>
+
+    </div>    
+</div>
+
+    <div class="bgamarillo contenedor sombra">
+
+        <form action="#" id="contacto" >
+        <leyend> Añada un contacto <span>Todos los campos son obligatorios.</span> </leyend>
+        
+        <?php include 'includes/layout/formulario.php'; ?>
+        
+        </form>
+
+    </div>
+
+<?php include 'includes/layout/footer.php'; ?>
